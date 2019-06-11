@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_LOCALIZABLE_</key>
+	<dict>
+		<key>##details0Label</key>
+		<string>影片名稱：</string>
+		<key>##details0Text</key>
+		<string>澳洲^b傳說</string>
+		<key>##displayName</key>
+		<string>俠盜片</string>
+		<key>##script0</key>
+		<string>倆兄弟</string>
+		<key>##script1</key>
+		<string>獨自在野外</string>
+		<key>##script2</key>
+		<string>發現一幅秘密地圖</string>
+		<key>##script3</key>
+		<string>那將會讓他們踏上</string>
+		<key>##script4</key>
+		<string>一次難忘的旅程</string>
+		<key>##script5</key>
+		<string>這個夏天</string>
+		<key>##script6</key>
+		<string>準備好^n冒險</string>
+		<key>##script7</key>
+		<string>^B0%1^n^B0%2</string>
+	</dict>
+	<key>attributes</key>
+	<dict>
+		<key>movieName</key>
+		<dict>
+			<key>uppercase</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>displayName</key>
+	<string>##displayName</string>
+	<key>script</key>
+	<array>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script0</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-1</string>
+		</dict>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script1</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-2</string>
+		</dict>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script2</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-3</string>
+		</dict>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script3</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-4</string>
+		</dict>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script4</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-5</string>
+		</dict>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script5</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-6</string>
+		</dict>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script6</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-7</string>
+		</dict>
+		<dict>
+			<key>sourceLine</key>
+			<string>##script7</string>
+			<key>titleName</key>
+			<string>TrailerTitle-Swashbuckler-8</string>
+		</dict>
+	</array>
+	<key>sections</key>
+	<array>
+		<dict>
+			<key>label</key>
+			<string>##cast</string>
+			<key>objects</key>
+			<array/>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>label</key>
+			<string>##details</string>
+			<key>objects</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>^B0</string>
+					<key>sourceLabel</key>
+					<string>##details0Label</string>
+					<key>value</key>
+					<string>##details0Text</string>
+				</dict>
+			</array>
+			<key>type</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>shots</key>
+	<array>
+		<dict>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>type</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>studioIndex</key>
+	<integer>104</integer>
+	<key>timeline</key>
+	<dict>
+		<key>main</key>
+		<array>
+			<dict>
+				<key> identifier</key>
+				<string>** STUDIO LOGO</string>
+				<key>displayPercent</key>
+				<real>0.73999999999999999</real>
+				<key>duration</key>
+				<real>5</real>
+				<key>type</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 0</string>
+				<key>duration</key>
+				<real>2.333333333333333</real>
+				<key>extraBefore</key>
+				<string>Extra-Black</string>
+				<key>index</key>
+				<integer>0</integer>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>0.83333333333333304</real>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 1</string>
+				<key>duration</key>
+				<real>1</real>
+				<key>index</key>
+				<integer>1</integer>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>1.1333333333333329</real>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 0</string>
+				<key>duration</key>
+				<real>1.4000000000000004</real>
+				<key>extendTitleBefore</key>
+				<true/>
+				<key>extendTitleBeforeDuration</key>
+				<real>0.46666666666666679</real>
+				<key>index</key>
+				<integer>0</integer>
+				<key>transitionAfter</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionAfterDuration</key>
+				<real>0.66666666666666607</real>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 2</string>
+				<key>duration</key>
+				<real>2.9000000000000004</real>
+				<key>index</key>
+				<integer>2</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 1</string>
+				<key>duration</key>
+				<real>1.7666666666666657</real>
+				<key>index</key>
+				<integer>1</integer>
+				<key>transitionAfter</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionAfterDuration</key>
+				<real>0.40000000000000036</real>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>1</real>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 3</string>
+				<key>duration</key>
+				<real>2.5666666666666682</real>
+				<key>index</key>
+				<integer>3</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 4</string>
+				<key>duration</key>
+				<real>1.7333333333333343</real>
+				<key>index</key>
+				<integer>4</integer>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>0.46666666666666856</real>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 2</string>
+				<key>duration</key>
+				<real>1.5666666666666664</real>
+				<key>index</key>
+				<integer>2</integer>
+				<key>transitionAfter</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionAfterDuration</key>
+				<real>0.96666666666666501</real>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>0.5</real>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 5</string>
+				<key>duration</key>
+				<real>3</real>
+				<key>index</key>
+				<integer>5</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 3</string>
+				<key>duration</key>
+				<real>1.466666666666665</real>
+				<key>index</key>
+				<integer>3</integer>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>0.70000000000000284</real>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 6</string>
+				<key>duration</key>
+				<real>0.93333333333333357</real>
+				<key>index</key>
+				<integer>6</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 7</string>
+				<key>duration</key>
+				<real>0.93333333333333357</real>
+				<key>index</key>
+				<integer>7</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 8</string>
+				<key>duration</key>
+				<real>2.1333333333333329</real>
+				<key>index</key>
+				<integer>8</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 4</string>
+				<key>duration</key>
+				<real>3.4333333333333336</real>
+				<key>extraAfter</key>
+				<string>Extra-White</string>
+				<key>index</key>
+				<integer>4</integer>
+				<key>transitionAfter</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionAfterDuration</key>
+				<real>0.1666666666666643</real>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>0.26666666666666572</real>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 9</string>
+				<key>duration</key>
+				<real>1.2999999999999972</real>
+				<key>extraBefore</key>
+				<string>Extra-White</string>
+				<key>index</key>
+				<integer>9</integer>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>0.1666666666666714</real>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 10</string>
+				<key>duration</key>
+				<real>2.1000000000000014</real>
+				<key>index</key>
+				<integer>10</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 11</string>
+				<key>duration</key>
+				<real>1.5666666666666629</real>
+				<key>index</key>
+				<integer>11</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 5</string>
+				<key>duration</key>
+				<real>2.06666666666667</real>
+				<key>index</key>
+				<integer>5</integer>
+				<key>transitionBefore</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionBeforeDuration</key>
+				<real>0.29999999999999716</real>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 12</string>
+				<key>duration</key>
+				<real>0.96666666666666856</real>
+				<key>index</key>
+				<integer>12</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 13</string>
+				<key>duration</key>
+				<real>0.89999999999999858</real>
+				<key>index</key>
+				<integer>13</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 14</string>
+				<key>duration</key>
+				<real>0.89999999999999858</real>
+				<key>index</key>
+				<integer>14</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 6</string>
+				<key>duration</key>
+				<real>2.7333333333333343</real>
+				<key>index</key>
+				<integer>6</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 15</string>
+				<key>duration</key>
+				<real>1.4666666666666686</real>
+				<key>index</key>
+				<integer>15</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 16</string>
+				<key>duration</key>
+				<real>0.96666666666666146</real>
+				<key>index</key>
+				<integer>16</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 17</string>
+				<key>duration</key>
+				<real>1.2666666666666728</real>
+				<key>index</key>
+				<integer>17</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 18</string>
+				<key>duration</key>
+				<real>0.89999999999999858</real>
+				<key>index</key>
+				<integer>18</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 19</string>
+				<key>duration</key>
+				<real>0.93333333333333002</real>
+				<key>index</key>
+				<integer>19</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 20</string>
+				<key>duration</key>
+				<real>0.89999999999999858</real>
+				<key>index</key>
+				<integer>20</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 21</string>
+				<key>duration</key>
+				<real>0.90000000000000568</real>
+				<key>index</key>
+				<integer>21</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 22</string>
+				<key>duration</key>
+				<real>0.93333333333333002</real>
+				<key>index</key>
+				<integer>22</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 23</string>
+				<key>duration</key>
+				<real>0.93333333333333712</real>
+				<key>index</key>
+				<integer>23</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 24</string>
+				<key>duration</key>
+				<real>0.89999999999999858</real>
+				<key>index</key>
+				<integer>24</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SHOT ITEM - 25</string>
+				<key>duration</key>
+				<real>0.96666666666666146</real>
+				<key>index</key>
+				<integer>25</integer>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** SCRIPT ITEM - 7</string>
+				<key>duration</key>
+				<real>2.9666666666666686</real>
+				<key>extendTitleBefore</key>
+				<true/>
+				<key>extendTitleBeforeDuration</key>
+				<real>0.23333333333332718</real>
+				<key>index</key>
+				<integer>7</integer>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key> identifier</key>
+				<string>** CREDITS</string>
+				<key>duration</key>
+				<real>3.56666666666667</real>
+				<key>extraAfter</key>
+				<string>Extra-Black</string>
+				<key>transitionAfter</key>
+				<string>Transition_CrossDissolve</string>
+				<key>transitionAfterDuration</key>
+				<real>0.3333333333333286</real>
+				<key>type</key>
+				<integer>4</integer>
+			</dict>
+		</array>
+		<key>soundTrack</key>
+		<dict>
+			<key>index</key>
+			<integer>1</integer>
+			<key>name</key>
+			<string>SoundTrack-Swashbuckler</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

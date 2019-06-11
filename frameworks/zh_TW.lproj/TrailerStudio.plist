@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_LOCALIZABLE_</key>
+	<dict>
+		<key>##label0</key>
+		<string>製片商</string>
+		<key>##label1</key>
+		<string>製片商名稱：</string>
+	</dict>
+	<key>label</key>
+	<string>##label0</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>defaultKey</key>
+			<string>trailerStudio</string>
+			<key>popup</key>
+			<dict>
+				<key>index</key>
+				<integer>-1</integer>
+				<key>value</key>
+				<integer>1</integer>
+			</dict>
+			<key>sourceLabel</key>
+			<string>##label1</string>
+			<key>value</key>
+			<string></string>
+		</dict>
+	</array>
+	<key>type</key>
+	<integer>2</integer>
+</dict>
+</plist>

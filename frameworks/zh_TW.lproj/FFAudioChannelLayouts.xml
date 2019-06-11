@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AudioChannelLayouts [
+<!ELEMENT AudioChannelLayouts (LayoutCategory)*>
+<!ELEMENT LayoutCategory (layout)*>
+<!ATTLIST LayoutCategory ChannelValence CDATA #REQUIRED>
+<!ELEMENT layout (name , channel_valence , item*)>
+<!ELEMENT item (name , channel_map? , routing_map?)>
+<!ELEMENT channel_map (channel)*>
+<!ELEMENT routing_map (routing)*>
+<!ELEMENT channel_valence ANY>
+<!ELEMENT channel (#PCDATA)>
+<!ELEMENT routing (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name localizable (true | false) "false">
+<!ENTITY % routingString "( kAudioChannelLabel_Left | kAudioChannelLabel_Right | kAudioChannelLabel_Center | kAudioChannelLabel_LFEScreen | kAudioChannelLabel_LeftSurround | kAudioChannelLabel_RightSurround )">
+]>
+<AudioChannelLayouts>
+    <!--This table defines the layout options available for audio channels configuration-->
+	
+	<!--	LOCALIZER'S NOTE!  Any <name localizable="true"> tag in here may be localized.  The layout name will show up
+			in the the Channel Configuration - Channels popup.  The item name will be what components
+			are named when created with one of the selections (and can be seen inside the collection).
+			Please do not alter any other tag, nor use ampersands or any other non-XML-safe character.
+	-->
+	
+    <LayoutCategory ChannelValence="1">
+        <layout>
+            <name localizable="true">單聲道</name>
+            <channel_valence>1</channel_valence>
+            <item>
+                <name localizable="true">單聲道</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+			<name localizable="true">左</name>
+            <channel_valence>1</channel_valence>
+            <item>
+                <name localizable="true">左</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Left</routing>
+                </routing_map>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">右</name>
+            <channel_valence>1</channel_valence>
+            <item>
+                <name localizable="true">右</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Right</routing>
+                </routing_map>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">居中</name>
+            <channel_valence>1</channel_valence>
+            <item>
+                <name localizable="true">居中</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Center</routing>
+                </routing_map>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">輔助 (LFE)</name>
+            <channel_valence>1</channel_valence>
+            <item>
+                <name localizable="true">lfe</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LFEScreen</routing>
+                </routing_map>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">左環繞聲</name>
+            <channel_valence>1</channel_valence>
+            <item>
+                <name localizable="true">左環繞聲</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                </routing_map>
+            </item>
+       </layout>
+
+       <layout>
+            <name localizable="true">右環繞聲</name>
+            <channel_valence>1</channel_valence>
+            <item>
+                <name localizable="true">右環繞聲</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+        </layout>
+    </LayoutCategory>
+	
+	
+    <LayoutCategory ChannelValence="2">
+        <layout>
+            <name localizable="true">雙單聲道</name>
+            <channel_valence>2</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">立體聲</name>
+            <channel_valence>2</channel_valence>
+            <item>
+                <name localizable="true">立體聲</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">反向立體聲</name>
+            <channel_valence>2</channel_valence>
+            <item>
+                <name localizable="true">反向立體聲</name>
+                <channel_map>
+                    <channel>1</channel>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+    </LayoutCategory>
+	
+	
+    <LayoutCategory ChannelValence="3">
+        <layout>
+            <name localizable="true">三單聲道</name>
+            <channel_valence>3</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">左、右、中</name>
+            <channel_valence>3</channel_valence>
+            <item>
+                <name localizable="true">左/右</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Left</routing>
+                    <routing>kAudioChannelLabel_Right</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">居中</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map>
+					<routing>kAudioChannelLabel_Center</routing>
+				</routing_map>
+            </item>
+        </layout>
+    </LayoutCategory>
+	
+	
+    <LayoutCategory ChannelValence="4">
+        <layout>
+            <name localizable="true">四單聲道</name>
+            <channel_valence>4</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 4</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">二立體聲</name>
+            <channel_valence>4</channel_valence>
+            <item>
+                <name localizable="true">立體聲 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 2</name>
+                <channel_map>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">左、右、中、環繞聲</name>
+            <channel_valence>4</channel_valence>
+            <item>
+                <name localizable="true">左/右</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Left</routing>
+                    <routing>kAudioChannelLabel_Right</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">居中</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Center</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">環繞聲</name>
+                <channel_map>
+                    <channel>3</channel>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+        </layout>
+    </LayoutCategory>
+	
+	
+    <LayoutCategory ChannelValence="5">
+        <layout>
+            <name localizable="true">5 單聲道</name>
+            <channel_valence>5</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 4</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 5</name>
+                <channel_map>
+                    <channel>4</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">環繞聲 5.0</name>
+            <channel_valence>5</channel_valence>
+            <item>
+                <name localizable="true">前 l/r</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Left</routing>
+                    <routing>kAudioChannelLabel_Right</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">居中</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Center</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">環繞聲 ls/rs</name>
+                <channel_map>
+                    <channel>3</channel>
+                    <channel>4</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+        </layout>
+    </LayoutCategory>
+
+	
+	<LayoutCategory ChannelValence="6">
+        <layout>
+            <name localizable="true">6 單聲道</name>
+            <channel_valence>6</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 4</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 5</name>
+                <channel_map>
+                    <channel>4</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 6</name>
+                <channel_map>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">3 立體聲</name>
+            <channel_valence>6</channel_valence>
+            <item>
+                <name localizable="true">立體聲 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 2</name>
+                <channel_map>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 3</name>
+                <channel_map>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">立體聲 + 2 單聲道 + 立體聲</name>
+            <channel_valence>6</channel_valence>
+            <item>
+                <name localizable="true">立體聲 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 4</name>
+                <channel_map>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">2 單聲道 + 2 立體聲</name>
+            <channel_valence>6</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 1</name>
+                <channel_map>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 2</name>
+                <channel_map>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+
+        <layout>
+            <name localizable="true">環繞聲 5.1</name>
+            <channel_valence>6</channel_valence>
+            <item>
+                <name localizable="true">環繞聲</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+    </LayoutCategory>
+	
+	
+    <LayoutCategory ChannelValence="7">
+        <layout>
+            <name localizable="true">7 單聲道</name>
+            <channel_valence>7</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 4</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 5</name>
+                <channel_map>
+                    <channel>4</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 6</name>
+                <channel_map>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 7</name>
+                <channel_map>
+                    <channel>6</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">環繞聲 6.1</name> <!-- kAudioChannelLayoutTag_MPEG_6_1_A  (L R C LFE Ls Rs Cs) -->
+            <channel_valence>7</channel_valence>
+            <item>
+                <name localizable="true">環繞聲 5.1</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">中後方</name>
+                <channel_map>
+                    <channel>6</channel>
+                    <channel>6</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+        </layout>
+    </LayoutCategory>
+
+	
+    <LayoutCategory ChannelValence="8">
+        <layout>
+            <name localizable="true">8 單聲道</name>
+            <channel_valence>8</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 4</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 5</name>
+                <channel_map>
+                    <channel>4</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 6</name>
+                <channel_map>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 7</name>
+                <channel_map>
+                    <channel>6</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 8</name>
+                <channel_map>
+                    <channel>7</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">4 立體聲</name>
+            <channel_valence>8</channel_valence>
+            <item>
+                <name localizable="true">立體聲 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 2</name>
+                <channel_map>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 3</name>
+                <channel_map>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 4</name>
+                <channel_map>
+                    <channel>6</channel>
+                    <channel>7</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">環繞聲 5.1 + 立體聲</name>
+            <channel_valence>8</channel_valence>
+            <item>
+                <name localizable="true">環繞聲</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲</name>
+                <channel_map>
+                    <channel>6</channel>
+                    <channel>7</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">環繞聲 7.1</name> <!-- kAudioChannelLayoutTag_MPEG_7_1_C (L R C LFE Ls Rs Rls Rrs) --> <!-- NOT! kAudioChannelLayoutTag_MPEG_7_1_A (L R C LFE Ls Rs Lc Rc) -->
+            <channel_valence>8</channel_valence>
+            <item>
+                <name localizable="true">前 l/r</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Left</routing>
+                    <routing>kAudioChannelLabel_Right</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">居中</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Center</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">lfe</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LFEScreen</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">環繞聲 ls/rs</name>
+                <channel_map>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">後 lb/rb</name>
+                <channel_map>
+                    <channel>6</channel>
+                    <channel>7</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+        </layout>
+    </LayoutCategory>
+
+    <LayoutCategory ChannelValence="12">
+        <layout>
+            <name localizable="true">12 單聲道</name>
+            <channel_valence>12</channel_valence>
+            <item>
+                <name localizable="true">單聲道 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 2</name>
+                <channel_map>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 3</name>
+                <channel_map>
+                    <channel>2</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 4</name>
+                <channel_map>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 5</name>
+                <channel_map>
+                    <channel>4</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 6</name>
+                <channel_map>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 7</name>
+                <channel_map>
+                    <channel>6</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 8</name>
+                <channel_map>
+                    <channel>7</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 9</name>
+                <channel_map>
+                    <channel>8</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 10</name>
+                <channel_map>
+                    <channel>9</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 11</name>
+                <channel_map>
+                    <channel>10</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">單聲道 12</name>
+                <channel_map>
+                    <channel>11</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">6 立體聲</name>
+            <channel_valence>12</channel_valence>
+            <item>
+                <name localizable="true">立體聲 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 2</name>
+                <channel_map>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 3</name>
+                <channel_map>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 4</name>
+                <channel_map>
+                    <channel>6</channel>
+                    <channel>7</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 5</name>
+                <channel_map>
+                    <channel>8</channel>
+                    <channel>9</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+            <item>
+                <name localizable="true">立體聲 6</name>
+                <channel_map>
+                    <channel>10</channel>
+                    <channel>11</channel>
+                </channel_map>
+                <routing_map/>
+            </item>
+        </layout>
+		
+        <layout>
+            <name localizable="true">雙環繞聲 5.1</name>
+            <channel_valence>12</channel_valence>
+            <item>
+                <name localizable="true">環繞聲 1</name>
+                <channel_map>
+                    <channel>0</channel>
+                    <channel>1</channel>
+                    <channel>2</channel>
+                    <channel>3</channel>
+                    <channel>4</channel>
+                    <channel>5</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Left</routing>
+                    <routing>kAudioChannelLabel_Right</routing>
+                    <routing>kAudioChannelLabel_Center</routing>
+                    <routing>kAudioChannelLabel_LFEScreen</routing>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+            <item>
+                <name localizable="true">環繞聲 2</name>
+                <channel_map>
+                    <channel>6</channel>
+                    <channel>7</channel>
+                    <channel>8</channel>
+                    <channel>9</channel>
+                    <channel>10</channel>
+                    <channel>11</channel>
+                </channel_map>
+                <routing_map>
+                    <routing>kAudioChannelLabel_Left</routing>
+                    <routing>kAudioChannelLabel_Right</routing>
+                    <routing>kAudioChannelLabel_Center</routing>
+                    <routing>kAudioChannelLabel_LFEScreen</routing>
+                    <routing>kAudioChannelLabel_LeftSurround</routing>
+                    <routing>kAudioChannelLabel_RightSurround</routing>
+                </routing_map>
+            </item>
+        </layout>
+    </LayoutCategory>
+
+</AudioChannelLayouts>

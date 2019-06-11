@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_LOCALIZABLE_</key>
+	<dict>
+		<key>##heading</key>
+		<string>標志樣式：</string>
+		<key>##label0</key>
+		<string>黑背景</string>
+		<key>##label1</key>
+		<string>地球在宇宙中旋轉</string>
+		<key>##label10</key>
+		<string>樹</string>
+		<key>##label2</key>
+		<string>太陽光束穿透雲層</string>
+		<key>##label3</key>
+		<string>雪山之顛</string>
+		<key>##label4</key>
+		<string>發光的金字塔</string>
+		<key>##label5</key>
+		<string>信號覆蓋全球</string>
+		<key>##label6</key>
+		<string>彩色條</string>
+		<key>##label7</key>
+		<string>蒲公英</string>
+		<key>##label8</key>
+		<string>銀河系</string>
+		<key>##label9</key>
+		<string>路燈</string>
+	</dict>
+	<key>label</key>
+	<string>##heading</string>
+	<key>values</key>
+	<array>
+		<array>
+			<string>##label0</string>
+			<string>##label1</string>
+			<string>##label2</string>
+			<string>##label3</string>
+			<string>##label4</string>
+			<string>##label5</string>
+			<string>##label6</string>
+			<string>##label7</string>
+			<string>##label8</string>
+			<string>##label9</string>
+			<string>##label10</string>
+		</array>
+	</array>
+</dict>
+</plist>
